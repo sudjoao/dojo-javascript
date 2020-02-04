@@ -3,9 +3,16 @@
         <title> Dojo Javascript </title>
     </head>
     <body>
-
         <script>
-        console.log('Hello World');
+            function soma(num1, num2){
+                return num1 + num2;
+            }
+           function exibeAlgo(){
+               console.log('Hello World');
+           }
+           console.log(soma(1, 2));
+           setTimeout(exibeAlgo, 5000);
+           //setInterval(exibeAlgo, 1000);
         </script>
     </body>
 </html>
